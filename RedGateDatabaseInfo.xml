@@ -62,6 +62,7 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>1</Count>
+    <DataFile>dbo.DimCurrency_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
