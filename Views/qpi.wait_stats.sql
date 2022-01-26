@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER OFF
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE  
+VIEW [qpi].[wait_stats]
+AS SELECT * FROM qpi.wait_stats_ex
+WHERE category_id IS NOT NULL
+GO
