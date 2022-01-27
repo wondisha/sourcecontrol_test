@@ -1,5 +1,5 @@
 SET IDENTITY_INSERT [dbo].[DimCurrency] ON
-INSERT INTO [dbo].[DimCurrency] ([CurrencyKey], [CurrencyAlternateKey], [CurrencyName]) VALUES (1, N'AFA', N'Afghani')
+INSERT INTO [dbo].[DimCurrency] ([CurrencyKey], [CurrencyAlternateKey], [CurrencyName]) VALUES (1, N'AF', N'Afghani')
 INSERT INTO [dbo].[DimCurrency] ([CurrencyKey], [CurrencyAlternateKey], [CurrencyName]) VALUES (2, N'DZD', N'Algerian Dinar')
 INSERT INTO [dbo].[DimCurrency] ([CurrencyKey], [CurrencyAlternateKey], [CurrencyName]) VALUES (3, N'ARS', N'Argentine Peso')
 INSERT INTO [dbo].[DimCurrency] ([CurrencyKey], [CurrencyAlternateKey], [CurrencyName]) VALUES (4, N'AMD', N'Armenian Dram')
